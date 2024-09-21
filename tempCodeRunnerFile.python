@@ -1,0 +1,8 @@
+num=int('03333333')
+den=10000000
+a,b=num,den
+while(b!=0):
+    a,b=b,a%b
+num//=a
+den//=a
+print(str(num)+'/'+str(den))

@@ -1,0 +1,154 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    background-image: url('https://www.facebook.com/images/comet/empty_states_icons/FB_notifications_empty.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  
+  .facebook-logo {
+    width: 300px;
+    margin-bottom: -10px;
+  }
+  
+  .left-section p {
+    font-size: 28px;
+    color: #606770;
+    margin-top: -15px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  
+  .right-section {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    padding: 14px;
+    margin: 5px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    background-color: #1877f2;
+    color: white;
+    padding: 14px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .login-form button:hover {
+    background-color: #166fe5;
+  }
+  
+  .forgot-password {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #dddfe2;
+    margin: 20px 0;
+  }
+  
+  .create-account {
+    background-color: #42b72a;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-account:hover {
+    background-color: #36a420;
+  }
+  
+  .create-page {
+    font-size: 14px;
+    color: #606770;
+    margin-top: 15px;
+  }
+  
+  .create-page a {
+    color: #1c1e21;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Error and Success Styles */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .success {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .login-page {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-section {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .facebook-logo {
+      width: 180px;
+    }
+    .left-section p {
+      font-size: 18px;
+    }
+    .right-section {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  
